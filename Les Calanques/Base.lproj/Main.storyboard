@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tsu-SG-UvY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -12,23 +12,23 @@
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="ControllerAvecTableView" customModule="Les_Calanques" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="port pin" translatesAutoresizingMaskIntoConstraints="NO" id="P15-Su-VOV">
-                                <rect key="frame" x="0.0" y="20" width="414" height="876"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="822"/>
                             </imageView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00x-J7-1HU">
-                                <rect key="frame" x="0.0" y="2" width="414" height="891"/>
+                                <rect key="frame" x="0.0" y="2" width="414" height="837"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="OvL-0a-tbI">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="891"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="837"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K5C-kZ-6fo">
-                                            <rect key="frame" x="0.0" y="0.0" width="174" height="763"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="174" height="709"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="xQN-G7-big">
-                                                <rect key="frame" x="0.0" y="0.0" width="174" height="763"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="709"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             </view>
                                             <vibrancyEffect>
@@ -40,7 +40,7 @@
                                 <blurEffect style="regular"/>
                             </visualEffectView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visitez les calanques" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6N-cH-mCh">
-                                <rect key="frame" x="10" y="98" width="394" height="30"/>
+                                <rect key="frame" x="10" y="66" width="394" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="rEj-Rg-7Qg"/>
                                 </constraints>
@@ -49,7 +49,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2jD-sW-4oK">
-                                <rect key="frame" x="10" y="136" width="394" height="667"/>
+                                <rect key="frame" x="10" y="104" width="394" height="645"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="Alternative" rowHeight="216" id="GwS-cf-1EC" customClass="CalanqueCellAlternative" customModule="Les_Calanques" customModuleProvider="target">
@@ -154,7 +154,7 @@
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="ControllerAvecCarte" customModule="Les_Calanques" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
@@ -165,10 +165,97 @@
             </objects>
             <point key="canvasLocation" x="1657.9710144927537" y="973.66071428571422"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="DmQ-Bd-a1P">
+            <objects>
+                <viewController id="Tsu-SG-UvY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MVh-EG-YYq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sugiton" translatesAutoresizingMaskIntoConstraints="NO" id="2ZQ-8U-cUW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XoY-o6-QAY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dGR-oj-xbz">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OAE-bv-BNC">
+                                            <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="eeh-fl-hrl">
+                                                <rect key="frame" x="0.0" y="0.0" width="174" height="768"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="regular"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Un coin de paradis en plein coeur de la métropole marseillaise" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKU-Qg-R8r">
+                                <rect key="frame" x="20" y="269" width="374" height="503"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gz-lR-YRt">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.66666666669999997" blue="1" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rkC-0k-8o4"/>
+                                </constraints>
+                                <state key="normal" title="Visitez les Calanques">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="49e-Tb-3d3" kind="show" id="qLe-zt-bWI"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sugiton" translatesAutoresizingMaskIntoConstraints="NO" id="C3k-Pz-fBn" customClass="ImageRonde" customModule="Les_Calanques" customModuleProvider="target">
+                                <rect key="frame" x="119.5" y="74" width="175" height="175"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="eeQ-Jo-xda"/>
+                                    <constraint firstAttribute="width" constant="175" id="hZ5-DV-KEi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="XoY-o6-QAY" secondAttribute="bottom" id="0Fj-nd-s5C"/>
+                            <constraint firstItem="XoY-o6-QAY" firstAttribute="top" secondItem="MVh-EG-YYq" secondAttribute="top" id="0wy-ze-Uy8"/>
+                            <constraint firstItem="2ZQ-8U-cUW" firstAttribute="top" secondItem="MVh-EG-YYq" secondAttribute="top" id="2yL-Ji-FPO"/>
+                            <constraint firstItem="Q2b-9L-rNU" firstAttribute="trailing" secondItem="8gz-lR-YRt" secondAttribute="trailing" constant="20" id="5I8-fz-y5S"/>
+                            <constraint firstItem="2ZQ-8U-cUW" firstAttribute="leading" secondItem="MVh-EG-YYq" secondAttribute="leading" id="GaM-XW-ClY"/>
+                            <constraint firstItem="C3k-Pz-fBn" firstAttribute="centerX" secondItem="MVh-EG-YYq" secondAttribute="centerX" id="JX6-xZ-IHt"/>
+                            <constraint firstItem="VKU-Qg-R8r" firstAttribute="leading" secondItem="Q2b-9L-rNU" secondAttribute="leading" constant="20" id="PmG-Wa-TRJ"/>
+                            <constraint firstItem="Q2b-9L-rNU" firstAttribute="bottom" secondItem="8gz-lR-YRt" secondAttribute="bottom" constant="20" id="Vcm-UH-yuP"/>
+                            <constraint firstItem="8gz-lR-YRt" firstAttribute="top" secondItem="VKU-Qg-R8r" secondAttribute="bottom" constant="20" id="ZqE-zD-biW"/>
+                            <constraint firstItem="XoY-o6-QAY" firstAttribute="trailing" secondItem="Q2b-9L-rNU" secondAttribute="trailing" id="ae6-Ax-sbb"/>
+                            <constraint firstItem="C3k-Pz-fBn" firstAttribute="top" secondItem="Q2b-9L-rNU" secondAttribute="top" constant="30" id="dSh-Nc-Tsw"/>
+                            <constraint firstItem="Q2b-9L-rNU" firstAttribute="trailing" secondItem="VKU-Qg-R8r" secondAttribute="trailing" constant="20" id="gwa-2T-WET"/>
+                            <constraint firstItem="XoY-o6-QAY" firstAttribute="leading" secondItem="Q2b-9L-rNU" secondAttribute="leading" id="iNp-Ga-rIw"/>
+                            <constraint firstAttribute="bottom" secondItem="2ZQ-8U-cUW" secondAttribute="bottom" id="jmS-YL-HZQ"/>
+                            <constraint firstItem="8gz-lR-YRt" firstAttribute="leading" secondItem="Q2b-9L-rNU" secondAttribute="leading" constant="20" id="mMd-4t-HUN"/>
+                            <constraint firstItem="2ZQ-8U-cUW" firstAttribute="trailing" secondItem="MVh-EG-YYq" secondAttribute="trailing" id="nl2-mx-mQb"/>
+                            <constraint firstItem="VKU-Qg-R8r" firstAttribute="top" secondItem="C3k-Pz-fBn" secondAttribute="bottom" constant="20" id="pZe-tR-D2r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Q2b-9L-rNU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ldm-Bi-Mkw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-923.1884057971015" y="0.6696428571428571"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="MRl-l2-djm"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -189,7 +276,7 @@
             <objects>
                 <tableViewController id="Xjf-Ik-0Gd" customClass="TableViewIntegreController" customModule="Les_Calanques" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="g9v-Mp-Xyo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -257,7 +344,13 @@
                             <outlet property="delegate" destination="Xjf-Ik-0Gd" id="7lf-dh-KbX"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="PUo-lH-WVG"/>
+                    <navigationItem key="navigationItem" id="PUo-lH-WVG">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="xne-vV-1F3">
+                            <connections>
+                                <action selector="reloadAction:" destination="Xjf-Ik-0Gd" id="5sh-tc-WOZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="NNw-3A-hVl" kind="show" identifier="Detail" id="E3l-WA-0ab"/>
                     </connections>
@@ -271,18 +364,18 @@
             <objects>
                 <viewController id="NNw-3A-hVl" customClass="DetailViewController" customModule="Les_Calanques" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NqY-AX-Lhg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xnC-ej-bbD" customClass="ImageRonde" customModule="Les_Calanques" customModuleProvider="target">
-                                <rect key="frame" x="107" y="98" width="200" height="200"/>
+                                <rect key="frame" x="107" y="66" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="sL2-Tf-erC"/>
                                     <constraint firstAttribute="height" constant="200" id="zbN-5h-eS9"/>
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="70S-iH-XtF">
-                                <rect key="frame" x="10" y="314" width="394" height="509"/>
+                                <rect key="frame" x="10" y="282" width="394" height="487"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -318,7 +411,7 @@
                     <tabBarItem key="tabBarItem" title="Table View 1" image="list" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H25-sc-MjB">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -337,7 +430,7 @@
                     <tabBarItem key="tabBarItem" title="Table View 2" image="list" id="Fi6-9c-iQ5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WCj-LS-hZb">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -356,7 +449,7 @@
                     <tabBarItem key="tabBarItem" title="Carte" image="earth" id="cPa-gy-q4n"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y0U-hU-mjO">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -374,6 +467,7 @@
         <image name="earth" width="32" height="32"/>
         <image name="list" width="32" height="32"/>
         <image name="port pin" width="1024" height="684"/>
+        <image name="sugiton" width="1600" height="896"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="E3l-WA-0ab"/>
